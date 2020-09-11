@@ -47,17 +47,16 @@ export const Wrapper = styled.div`
     margin: 20px;
     padding: 14px 44px;
     border: 2px solid #ffc385;
-    /* background: #ffc38526;
-    text-shadow: 0 0 2px black; */
   }
 
   .start,
   .next {
     cursor: pointer;
-    background: #ffffffcc;
+    color: #ffffffbf;
+    background: #332a18cc;
     border: 2px solid gray;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+    border-radius: 5px;
     height: 40px;
     margin: 20px 0;
     padding: 0 40px;
@@ -66,8 +65,9 @@ export const Wrapper = styled.div`
 
   .start:hover,
   .next:hover {
-    background: #eaeaea;
-  }
+    color: white;
+    background: #0e0c07cc;
+    border: 2px solid #464646;
 
   .start {
     max-width: 200px;

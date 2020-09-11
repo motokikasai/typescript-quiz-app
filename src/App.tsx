@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { fetchQuizQuestions, Difficulty, QuestionState } from './API';
 import QuestionCard from './components/QuestionCard';
+import Corner from './components/Corner';
 import { GlobalStyle, Wrapper } from './style/AppStyles';
 
 export type AnswerObject = {
@@ -70,6 +71,7 @@ const App = () => {
 
   return (
     <>
+      <Corner />
       <GlobalStyle />
       <Wrapper>
         <h1>CS Quiz</h1>

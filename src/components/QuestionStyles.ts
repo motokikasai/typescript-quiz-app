@@ -10,7 +10,6 @@ export const Wrapper = styled.div`
   text-align: center;
 
   p {
-    /* font-size: 1rem; */
     color: #494949;
   }
 `;
@@ -32,7 +31,6 @@ export const ButtonWrapper = styled.div<ButtonWrapperProps>`
     user-select: none;
     font-size: 0.8rem;
     width: 100%;
-    /* height: 60px; */
     padding: 24px;
     margin: 5px 0;
 
